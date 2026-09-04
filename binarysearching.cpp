@@ -30,15 +30,14 @@ int binarySearch(int arr[],int size ,int target){
 int main(){
     int arr[]={2,3,6,8,12,16};
     int size = 7;
-    int target = 2;
-
+    int target = 8;
     int indexoftarget = binarySearch(arr,size,target);
     
     if(indexoftarget == -1){
         cout<<"target not found";
     }
     else{
-        cout<<"Target found as "<<indexoftarget<< "index"<<endl;   
+        cout<<"Target found at "<<indexoftarget<< " index"<<endl;   
      }
      return 0;
 }
